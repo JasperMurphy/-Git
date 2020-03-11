@@ -49,7 +49,7 @@ Git是目前世界上最先进的分布式**版本控制**系统
 2. `ssh-keygen -t rsa -C "youremail@xxx.com"`创建SSH Key可以按三个回车从而不设置密码
 3. .ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH Key的秘钥对，id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可以公开
 4. 登录GitHub将公钥添加进GitHub，一个账户可以有多个key,从而实现在不同电脑上想GitHub推送
-5. 关联远程库`git remote add origin git@github.com:Github_username/repo-name.git`
+5. 关联远程库`git remote add origin git@github.com:Github_username/repo_name`
 6. `git push -u origin master`远程库的名字就是origin，把本地库的所有内容推送到远程库上，实际上是把当前分支master推送到远程，第一次推送需要加-u参数
 7. `git push origin master`本地向远程提交
 
@@ -62,6 +62,5 @@ Git是目前世界上最先进的分布式**版本控制**系统
 
 [Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 
-
-写在最后：
-由于本人水平有限，难免挂一漏万，存在错误讹说，还盼望读者批评指正。
+## 写在最后
+此文档为本人学习Git的纪录材料，感谢文档中涉及知识的贡献者。若文档内容对您有所帮助我倍感荣幸，但由于本人水平有限，难免挂一漏万，存在错误讹说，还盼望读者批评指正。
