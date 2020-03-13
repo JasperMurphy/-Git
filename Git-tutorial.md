@@ -18,12 +18,12 @@ Git是目前世界上最先进的分布式**版本控制**系统
 2. `pwd`命令用于显示当前目录
 3. `mkdir learngit`在Git Bash所在位置建立名为learngit的文件夹
 4. `cd learngit`进入learngit文件夹
-5. `git init`前目录下初始化Git本地库
+5. `git init`当前目录下初始化Git本地库，会生成隐藏的`.git`文件夹
 [git——创建本地版本库](https://blog.csdn.net/u012031408/article/details/54407002)
 
 ## 在本地库中创建、修改、添加、提交文档
 1. 将需要进行版本控制的文档创建在刚才初始化的库中
-2. `git add Readme.txt`告诉Git，把文件添加到stage（add每添加一个文件需要执行一次这句命令）
+2. `git add Readme.txt`告诉Git，把文件添加到stage（add每添加一个文件（**文件名不能出现空格**）需要执行一次这句命令）
 3. `git commit -m "wrote a readme file"`告诉Git，把文件提交到分支（commit可以一次提交多个文件，在多次add之后用一个commit提交之前添加的文件就可以了）
 4. `git status`查看当前Git的状态
 5. `git diff`查看工作区与index之间的不同
