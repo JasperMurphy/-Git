@@ -1,10 +1,12 @@
-# 入门Git
+# Git简化手册
 
-[Git-Cheatsheet.pdf](https://github.com/JasperMei/-Git/blob/master/Git-Cheatsheet.pdf)
+## 命令
+`pwd`
+查看当前所在目录
 
-Git是目前世界上最先进的分布式**版本控制**系统
-- 版本控制：自动记录每次对文本的修改，并支持多人协作。OneDrive也有这类的功能。
-- 分布式：与集中式相对应，不需要中央服务器，也是一种去中心化。
+
+### 从远程仓库克隆
+
 
 ## Git使用者信息查看修改
 查看
@@ -57,10 +59,12 @@ Git是目前世界上最先进的分布式**版本控制**系统
 
 [Git SSH秘钥的删除和创建（Git ssh 忘记密码怎么办？）](https://blog.csdn.net/qq_34902522/article/details/78498664)
 
-## Reference
+## REFERENCES
 [廖雪峰Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 
 [Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 
+[Git-Cheatsheet.pdf](https://github.com/JasperMei/-Git/blob/master/Git-Cheatsheet.pdf)
+
 ## 写在最后
-此文档为本人学习Git的纪录材料，感谢文档中涉及知识的贡献者。若文档内容对您有所帮助我倍感荣幸，但由于本人水平有限，难免挂一漏万，存在错误讹说，还盼望读者批评指正。
+此文档为本人学习Git的记录材料，感谢文档中涉及知识的贡献者。若文档内容对您有所帮助我倍感荣幸，但由于本人水平有限，难免挂一漏万，存在错误讹说，还盼望读者批评指正。
